@@ -1,0 +1,20 @@
+        <div class="container">
+            <div class="nav">
+                <ul class="navList">
+                    <label>twitter 키워드 검색</label>
+                    <br>
+                    <form method="post" action="keyword">
+                    <input type="text" size="30" name="textKeyword">
+                    <input type="submit" value="submit" id="textInput">  
+                    </form>
+                    <br>
+                    <br>
+                    <textarea name="tweetText" cols="40" rows="50" readonly = "true" wrap="hard" style="resize: none;">
+                    </textarea>
+                </ul>
+            </div>
+            <div id="sendKeyword"></div>
+            <div class="vmap" id="v_map">
+                <!--!notice 여기에 맵이 들어감 vFun.js-->
+            </div>
+        </div>
