@@ -29,7 +29,7 @@ place_map = {
 ```
 각각 도 단위로 분류했다. 각 도별 중심좌표는 [도별 중심좌표](https://github.com/IngIeoAndSpare/display_-frequency_word/blob/master/place.csv)를 참고.
   
-모듈은 웹 상에서 키워드를 입력하면 키워드의 빈도수를 DB에 탐색하게 되고 결과 값을 OpenLayers 의 vectorLayer 를 이용하여 가시화 하게 된다.
-사용된 웹 지도는 Vworld 로 [vworld_dev](http://dev.vworld.kr/dev/v4api.do)를 참고.
-사용된 vectorLayer는 [vectorLayer](https://openlayers.org/en/latest/apidoc/ol.layer.Vector.html)링크를 참고.
+모듈은 웹 상에서 키워드를 입력하면 키워드의 빈도수를 DB에 탐색하게 되고 결과 값을 OpenLayers 의 vectorLayer 를 이용하여 가시화 하게 된다.  
+사용된 웹 지도는 Vworld 로 [vworld_dev](http://dev.vworld.kr/dev/v4api.do)를 참고.  
+사용된 vectorLayer는 [vectorLayer](https://openlayers.org/en/latest/apidoc/ol.layer.Vector.html)링크를 참고.  
 사용된 twitter_collect 패키지는 [twitter-stream-channels](https://www.npmjs.com/package/twitter-stream-channels)링크를 참고.
